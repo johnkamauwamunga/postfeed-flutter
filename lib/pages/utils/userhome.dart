@@ -38,7 +38,9 @@ class UserHome extends StatelessWidget {
                   itemBuilder: (context, index) {
                     return BubbleStories(text: people[index]);
                   })),
-          UserPosts(),
+          UserPosts(
+            name: "james bond",
+          ),
         ],
       ),
     );
